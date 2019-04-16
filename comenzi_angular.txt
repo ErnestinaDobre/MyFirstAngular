@@ -1,0 +1,4 @@
+ng new aplicatieone -- creare structura
+
+
+
