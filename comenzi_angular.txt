@@ -1,3 +1,4 @@
+COMENZI:
 ng new aplicatieone -- creare structura
 
 
