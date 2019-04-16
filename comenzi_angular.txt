@@ -1,5 +1,11 @@
 COMENZI:
 ng new aplicatieone -- creare structura
 
+cd aplicatieone
+
+ng serve - pornire aplicatie
+	localhost:4200
 
 
+ng generate component pizza
+ng g c pizza
