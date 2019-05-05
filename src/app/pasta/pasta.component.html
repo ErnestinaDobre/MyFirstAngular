@@ -4,21 +4,19 @@ Pasta is great! <br>
 Hello, {{modelulPentruNume}}
 
 <br>
-Select your pasta: 
+Please, select your pasta here:
 <mat-checkbox  [(ngModel)]="pastaCarbonara">Carbonara</mat-checkbox>
 <mat-checkbox  [(ngModel)]="pastaArabiatta">Arabiatta</mat-checkbox>
 <mat-checkbox  [(ngModel)]="pastaBolognese">Bolognese</mat-checkbox>
 
 
 
-Hello, {{modelulPentruNume}} tipul este {{pastaCarbonara}}
+{{modelulPentruNume}} tipul este {{pastaCarbonara}}
 
 <hr>
 <span *ngIf="pastaCarbonara">Carbonara is awesome</span>
 <span *ngIf="pastaArabiatta">Arabiatta is exotic</span>
 <span *ngIf="pastaBolognese">Bolognese is exquisite</span>
-
-<hr>
 
 <hr>
 
