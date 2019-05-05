@@ -1,0 +1,10 @@
+div.emblem {
+   content:url(http://www.patriotspubandgrill.com/images/ppg-AdobeStock_141165547.jpg);
+   width: 24em;
+   height: 7em;
+}
+div.globe {
+  width: 100%;
+  height: auto;
+  background-color: black;
+}

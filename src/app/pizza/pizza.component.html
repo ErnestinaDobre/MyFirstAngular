@@ -1,3 +1,14 @@
-<p>
-  pizza works!
-</p>
+<h2>{{titlu}}</h2>
+<div>
+  <div>
+    <h2>Pizza carbonara</h2>
+    <p>30.0</p>
+  </div>
+
+  <ul>
+    <li *ngFor="let p of pizze">{{p}}</li>
+  </ul>
+<ul>
+  <li *ngFor="let n of pizzeCuDetalii"><span class="denumire">{{n.nume}}</span><br>{{n.pret}}</li>
+  </ul>
+</div>

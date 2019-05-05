@@ -1,3 +1,31 @@
-<p>
-  pasta works!
-</p>
+<div>
+Pasta is great! <br>
+<input type="text" [(ngModel)]="modelulPentruNume">
+Hello, {{modelulPentruNume}}
+
+<br>
+Select your pasta: 
+<mat-checkbox  [(ngModel)]="pastaCarbonara">Carbonara</mat-checkbox>
+<mat-checkbox  [(ngModel)]="pastaArabiatta">Arabiatta</mat-checkbox>
+<mat-checkbox  [(ngModel)]="pastaBolognese">Bolognese</mat-checkbox>
+
+
+
+Hello, {{modelulPentruNume}} tipul este {{pastaCarbonara}}
+
+<hr>
+<span *ngIf="pastaCarbonara">Carbonara is awesome</span>
+<span *ngIf="pastaArabiatta">Arabiatta is exotic</span>
+<span *ngIf="pastaBolognese">Bolognese is exquisite</span>
+
+<hr>
+
+<hr>
+
+    <mat-form-field>
+    <textarea matInput [(ngModel)]="yourcomment"  placeholder="Leave a comment"></textarea>
+  </mat-form-field>
+  Your comment: {{yourcomment}}
+
+
+</div>
